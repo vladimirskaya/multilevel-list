@@ -1,0 +1,61 @@
+Меню
+  Ru
+  кнонка закрытия
+
+  Services
+		Облачные вычисления
+				Блок:
+				  Cloud consulting
+				  Relational database services for MySQL, PostgreSQL, and SQL server.
+				Блок 2:
+				  Cloud infrastructure analytics
+				  Health-specific solutions to enhance the patient experience.
+				Блок 3:
+				  Hybrid Cloud
+				  Data storage, AI, and analytics solutions for government agencies.
+				  Блок 4:
+				  Hybrid Cloud
+				  Data storage, AI, and analytics solutions for government agencies.
+				  Блок 5:
+				  Multicloud
+				  Relational database services for MySQL, PostgreSQL, and SQL server.
+	Выделенные серверы
+	Платформенные сервисы
+	Информационная безопасность
+  Managed IT
+  Telecom Solutions
+  About us
+    О компании
+	Служба поддержки
+	Вакансии
+	Контакты
+
+  Контакты
+  Поиск
+
+
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore laboriosam nihil placeat
+
+
+Порядок скриптов:
+
+1. нажатие на кнопку
+
+2. реагирование на нажатие в области раскрывшегося меню
+
+	2.1. есжи нажата верхняя часть, то: 
+		- или среагировать на выбор языка
+		- или закрыть меню
+
+	2.2. если нажата средняя часть, то:
+		а) 4 элемент списка верхнего уровня - это список ссылок // предусмотреть
+		б) если нажато название заголовка, то раскрыть список нижнего уровня. Закрыть соседей.
+		в) если нажат возврат с заголовком, то закрыть дочерний список. Открыть соседей.
+	
+	2.3. если нажата нижняя часть, то:
+		- закрыть меню и перейти по ссылке
+
+	2.4. если нажато пустое пространство, то:
+		- не реагировать
+

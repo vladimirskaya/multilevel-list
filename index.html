@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="container">
+        <button type="button" class="btn" data-toggle="modal" data-bs-target="#modal">
+          Открыть модальное окно
+        </button>
+    </div>
+    
+    <div class="modal-menu invisible">
+        <div class="wrapper">
+            <!-- Верхняя часть модального меню  -->
+            <div class="menu-part top">
+                <p class="lang-switcher first-level__item_name">Ru</p>
+                <!-- <svg></svg> -->
+            </div>
+            
+
+            <!-- Средняя часть модального меню -- многоуровневый список -->
+            <div class="menu-part middle">
+                <!-- Список первого уровня -->
+                <ul class="menu__list_first-level">            
+                    <!-- Первый элемент списка верхнего уровня -->
+                    <!-- и он же Список второго уровня -->
+                    <li class="first-level__item">
+                        <p class="first-level__item_name">Services</p>
+
+                        <ul class="menu__list_second-level">
+
+                            <!-- Первый элемент списка второго уровня  -->
+                            <li class="second-level__item">
+                            <p class="second-level__item_name">Информационная безопасность</p>
+
+                            <!-- Список третьего уровня -->
+                            <ul class="menu__list_third-level">
+                                <!-- Первый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Защита от DDoS</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Второй элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Зущита ПК</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Третий элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Шифрование</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Четвертый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Безопасный контент</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            <!-- Конец списка третьего уровня  -->
+                            </ul>
+                            </li>
+                            <!-- Конец первого элемента списка второго уровня  -->
+
+                            <!-- Второй элемент списка второго уровня  -->
+                            <li class="second-level__item">
+                            <p class="second-level__item_name">Информационная безопасность</p>
+
+                            <!-- Список третьего уровня -->
+                            <ul class="menu__list_third-level">
+                                <!-- Первый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Защита от DDoS</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Второй элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Зущита ПК</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Третий элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Шифрование</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Четвертый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Безопасный контент</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            <!-- Конец списка третьего уровня  -->
+                            </ul>
+                            </li>
+                            <!-- Конец второго элемента списка второго уровня  -->
+
+                            <!-- Третий элемент списка второго уровня  -->
+                            <li class="second-level__item">
+                            <p class="second-level__item_name">Информационная безопасность</p>
+
+                            <!-- Список третьего уровня -->
+                            <ul class="menu__list_third-level">
+                                <!-- Первый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Защита от DDoS</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Второй элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Зущита ПК</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Третий элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Шифрование</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Четвертый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Безопасный контент</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            <!-- Конец списка третьего уровня  -->
+                            </ul>
+                            </li>
+                            <!-- Конец третьего элемента списка второго уровня  -->
+
+                            <!-- Четвертый элемент списка второго уровня  -->
+                            <li class="second-level__item">
+                            <p class="second-level__item_name">Информационная безопасность</p>
+
+                            <!-- Список третьего уровня -->
+                            <ul class="menu__list_third-level">
+                                <!-- Первый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Защита от DDoS</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Второй элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Зущита ПК</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Третий элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Шифрование</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Четвертый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Безопасный контент</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            <!-- Конец списка третьего уровня  -->
+                            </ul>
+                            </li>
+                        <!-- Конец второго элемента списка второго уровня  -->
+                        </ul>
+                    </li>
+                    <!-- Конец первого элемента списка верхнего уровня  -->
+                
+                    <!-- Второй элемент списка верхнего уровня -->
+                    <!-- и он же Список второго уровня -->
+                    <li class="first-level__item">
+                        <p class="first-level__item_name">Services</p>
+
+                        <ul class="menu__list_second-level">
+
+                            <!-- Первый элемент списка второго уровня  -->
+                            <li class="second-level__item">
+                            <p class="second-level__item_name">Информационная безопасность</p>
+
+                            <!-- Список третьего уровня -->
+                            <ul class="menu__list_third-level">
+                                <!-- Первый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Защита от DDoS</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Второй элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Зущита ПК</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Третий элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Шифрование</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Четвертый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Безопасный контент</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            <!-- Конец списка третьего уровня  -->
+                            </ul>
+                            </li>
+                            <!-- Конец первого элемента списка второго уровня  -->
+                        
+                            <!-- Второй элемент списка второго уровня  -->
+                            <li class="second-level__item">
+                            <p class="second-level__item_name">Информационная безопасность</p>
+
+                            <!-- Список третьего уровня -->
+                            <ul class="menu__list_third-level">
+                                <!-- Первый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Защита от DDoS</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Второй элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Зущита ПК</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Третий элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Шифрование</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Четвертый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Безопасный контент</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            <!-- Конец списка третьего уровня  -->
+                            </ul>
+                            </li>
+                            <!-- Конец второго элемента списка второго уровня  -->
+                            
+                            <!-- Третий элемент списка второго уровня  -->
+                            <li class="second-level__item">
+                            <p class="second-level__item_name">Информационная безопасность</p>
+
+                            <!-- Список третьего уровня -->
+                            <ul class="menu__list_third-level">
+                                <!-- Первый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Защита от DDoS</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Второй элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Зущита ПК</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Третий элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Шифрование</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Четвертый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Безопасный контент</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            <!-- Конец списка третьего уровня  -->
+                            </ul>
+                            </li>
+                            <!-- Конец третьего элемента списка второго уровня  -->
+                        
+                            <!-- Четвертый элемент списка второго уровня  -->
+                            <li class="second-level__item">
+                            <p class="second-level__item_name">Информационная безопасность</p>
+
+                            <!-- Список третьего уровня -->
+                            <ul class="menu__list_third-level">
+                                <!-- Первый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Защита от DDoS</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Второй элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Зущита ПК</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Третий элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Шифрование</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Четвертый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Безопасный контент</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            <!-- Конец списка третьего уровня  -->
+                            </ul>
+                            </li>
+                        <!-- Конец второго элемента списка второго уровня  -->
+                        </ul>
+                    </li>
+                    <!-- Конец второго элемента списка верхнего уровня  -->
+
+                    <!-- Третий элемент списка верхнего уровня -->
+                    <!-- и он же Список второго уровня -->
+                    <li class="first-level__item">
+                        <p class="first-level__item_name">Services</p>
+
+                        <ul class="menu__list_second-level">
+
+                            <!-- Первый элемент списка второго уровня  -->
+                            <li class="second-level__item">
+                            <p class="second-level__item_name">Информационная безопасность</p>
+
+                            <!-- Список третьего уровня -->
+                            <ul class="menu__list_third-level">
+                                <!-- Первый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Защита от DDoS</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Второй элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Зущита ПК</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Третий элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Шифрование</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Четвертый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Безопасный контент</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            <!-- Конец списка третьего уровня  -->
+                            </ul>
+                            </li>
+                            <!-- Конец первого элемента списка второго уровня  -->
+                        
+                            <!-- Второй элемент списка второго уровня  -->
+                            <li class="second-level__item">
+                            <p class="second-level__item_name">Информационная безопасность</p>
+
+                            <!-- Список третьего уровня -->
+                            <ul class="menu__list_third-level">
+                                <!-- Первый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Защита от DDoS</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Второй элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Зущита ПК</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Третий элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Шифрование</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Четвертый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Безопасный контент</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            <!-- Конец списка третьего уровня  -->
+                            </ul>
+                            </li>
+                            <!-- Конец второго элемента списка второго уровня  -->
+                            
+                            <!-- Третий элемент списка второго уровня  -->
+                            <li class="second-level__item">
+                            <p class="second-level__item_name">Информационная безопасность</p>
+
+                            <!-- Список третьего уровня -->
+                            <ul class="menu__list_third-level">
+                                <!-- Первый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Защита от DDoS</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Второй элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Зущита ПК</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Третий элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Шифрование</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Четвертый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Безопасный контент</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            <!-- Конец списка третьего уровня  -->
+                            </ul>
+                            </li>
+                            <!-- Конец третьего элемента списка второго уровня  -->
+                        
+                            <!-- Четвертый элемент списка второго уровня  -->
+                            <li class="second-level__item">
+                            <p class="second-level__item_name">Информационная безопасность</p>
+
+                            <!-- Список третьего уровня -->
+                            <ul class="menu__list_third-level">
+                                <!-- Первый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Защита от DDoS</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Второй элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Зущита ПК</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Третий элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Шифрование</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Четвертый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Безопасный контент</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            <!-- Конец списка третьего уровня  -->
+                            </ul>
+                            </li>
+                        <!-- Конец второго элемента списка второго уровня  -->
+                        </ul>
+                    </li>
+                    <!-- Конец третьего элемента списка верхнего уровня  -->
+                    
+                    <!-- ТретЧетверытй элемент списка верхнего уровня -->
+                    <!-- и он же Список второго уровня -->
+                    <li class="first-level__item">
+                        <p class="first-level__item_name">Services</p>
+
+                        <ul class="menu__list_second-level">
+
+                            <!-- Первый элемент списка второго уровня  -->
+                            <li class="second-level__item">
+                            <p class="second-level__item_name">Информационная безопасность</p>
+
+                            <!-- Список третьего уровня -->
+                            <ul class="menu__list_third-level">
+                                <!-- Первый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Защита от DDoS</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Второй элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Зущита ПК</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Третий элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Шифрование</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Четвертый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Безопасный контент</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            <!-- Конец списка третьего уровня  -->
+                            </ul>
+                            </li>
+                            <!-- Конец первого элемента списка второго уровня  -->
+                        
+                            <!-- Второй элемент списка второго уровня  -->
+                            <li class="second-level__item">
+                            <p class="second-level__item_name">Информационная безопасность</p>
+
+                            <!-- Список третьего уровня -->
+                            <ul class="menu__list_third-level">
+                                <!-- Первый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Защита от DDoS</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Второй элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Зущита ПК</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Третий элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Шифрование</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Четвертый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Безопасный контент</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            <!-- Конец списка третьего уровня  -->
+                            </ul>
+                            </li>
+                            <!-- Конец второго элемента списка второго уровня  -->
+                            
+                            <!-- Третий элемент списка второго уровня  -->
+                            <li class="second-level__item">
+                            <p class="second-level__item_name">Информационная безопасность</p>
+
+                            <!-- Список третьего уровня -->
+                            <ul class="menu__list_third-level">
+                                <!-- Первый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Защита от DDoS</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Второй элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Зущита ПК</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Третий элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Шифрование</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Четвертый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Безопасный контент</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            <!-- Конец списка третьего уровня  -->
+                            </ul>
+                            </li>
+                            <!-- Конец третьего элемента списка второго уровня  -->
+                        
+                            <!-- Четвертый элемент списка второго уровня  -->
+                            <li class="second-level__item">
+                            <p class="second-level__item_name">Информационная безопасность</p>
+
+                            <!-- Список третьего уровня -->
+                            <ul class="menu__list_third-level">
+                                <!-- Первый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Защита от DDoS</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Второй элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Зущита ПК</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Третий элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="item_link">
+                                        <div>
+                                            <h5 class="link__header">Шифрование</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <!-- Четвертый элемент списка третьего уровня  -->
+                                <li class="third-level__item">
+                                    <a href="#" class="menu__item__link">
+                                        <div>
+                                            <h5 class="link__header">Безопасный контент</h5>
+                                            <p class="link__content">
+                                                Relational database services 
+                                                for MySQL, PostgreSQL, and SQL server.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            <!-- Конец списка третьего уровня  -->
+                            </ul>
+                            </li>
+                        <!-- Конец второго элемента списка второго уровня  -->
+                        </ul>
+                    </li>
+                    <!-- Конец четвертого элемента списка верхнего уровня  -->
+
+                </ul> <!-- Конец списка первого уровня  -->
+            </div>
+            <!-- Конец средней части модального окна -- многоуровневый список  -->
+
+            <!-- Нижняя часть модального меню -- простой список  -->
+            <div class="menu-part bottom">
+                <ul class="menu__list_first-level">
+                    <li class="first-level__item">
+                        <a href="#" class="item__link">Контакты</a>
+                    </li>
+                     <li class="first-level__item">
+                        <a href="#" class="item__link">Поиск</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div> 
+
+        
+       
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
